@@ -100,12 +100,7 @@ export const DATA = {
         navbar: false,
       },
 
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
+      
     },
   },
   work: [
