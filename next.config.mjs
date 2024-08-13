@@ -10,8 +10,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/course/:path*',
-        destination: '/courses/:path*', 
+        source: '/:subdomain/:path*',
+        destination: '/[subdomain]/[page]', 
       },
     ];
   },
