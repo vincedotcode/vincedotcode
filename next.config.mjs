@@ -3,18 +3,15 @@ const nextConfig = {
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  async rewrites() {
-    return [
-      {
-        source: '/:subdomain/:path*',
-        destination: '/[subdomain]/[page]', 
-      },
-    ];
-  },
+},
+typescript: {
+  // !! WARN !!
+  // Dangerously allow production builds to successfully complete even if
+  // your project has type errors.
+  // !! WARN !!
+  ignoreBuildErrors: true,
+},
+  
 };
 
 export default nextConfig;
