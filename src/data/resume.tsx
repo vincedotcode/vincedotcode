@@ -279,7 +279,7 @@ export const DATA = {
   projects: [
     {
       title: "motalent",
-      href: "https://motalent.vercel.app/",
+      href: "https://motalentmu.vercel.app/",
       dates: "August 2024 - Current",
       active: true,
       description:
