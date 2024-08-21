@@ -5,6 +5,17 @@ import Link from "next/link";
 export const metadata = {
   title: "Blog",
   description: "My thoughts on software development, life, and more.",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 const BLUR_FADE_DELAY = 0.04;

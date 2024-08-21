@@ -14,6 +14,10 @@ export async function generateMetadata({
 }): Promise<Metadata | undefined> {
   let post = await getPost(params.slug);
 
+  if (!post) {
+    notFound();
+  }
+
   let {
     title,
     publishedAt: publishedTime,
@@ -23,7 +27,7 @@ export async function generateMetadata({
   let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
 
   return {
-    title,
+    title: `${title} | Blog | Vince Erkadoo`,
     description,
     openGraph: {
       title,
