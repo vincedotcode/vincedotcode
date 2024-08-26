@@ -419,7 +419,7 @@ export const DATA = {
       dates: "July 2024",
       location: "Middlesex University",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Developed MoNature, a application to help promote nature conservation and awareness.",
       image: "/mdx.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
@@ -429,7 +429,7 @@ export const DATA = {
       dates: "September 2022",
       location: "Middlesex University",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "xd i still wasn't good enough, so i developed a basic ecommerce back then.",
       image: "/mdx.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
