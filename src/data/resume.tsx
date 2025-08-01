@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -35,6 +36,7 @@ export const DATA = {
     "AWS",
     "Docker",
     "TypeScript",
+    
     "GraphQL",
     "Kubernetes",
     "Microservices Architecture",
@@ -70,6 +72,7 @@ export const DATA = {
     "Salesforce",
     "SAP",
     "Microsoft Office Suite",
+
     "Asana",
     "Trello"
   ],  
@@ -134,6 +137,7 @@ export const DATA = {
       end: "June 2024",
       badges: [],
       description: `
+  
         - Improved software efficiency by troubleshooting and resolving coding issues.
         - Using .NET to create Web APIs in Onion Architecture.
         - Developed customized software solutions for diverse clients, resulting in increased satisfaction and repeat business.
@@ -186,6 +190,7 @@ export const DATA = {
       logoUrl: "/me.jpg",
       badges: [],
       start: "Aug 2020",
+      
       end: "May 2021",
       description: `
         - Developed prototype designs through wireframing tools like Sketch or Figma before beginning coding work on projects.
@@ -194,6 +199,7 @@ export const DATA = {
       `,
     },
   ],
+  
   education: [
     {
       school: "University of Mauritius",
@@ -399,6 +405,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
+   
           href: "https://inabox.tech/",
           icon: <Icons.globe className="size-3" />,
         },
@@ -410,6 +417,7 @@ export const DATA = {
       ],
       image: "/inabox.png",
       video:
+   
         "",
     },
   ],
