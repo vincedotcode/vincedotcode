@@ -10,8 +10,9 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/mauritius",
   description:
     "Passionate Senior Fullstack Software Engineer and aspiring industry leader. Dedicated to building innovative solutions and empowering others through technology. I am very active on LinkedIn.",
-  summary:
-    "At 21 years old, I have dedicated myself to achieving excellence in my field, continuously striving to become the best in Mauritius. Throughout Heaven and Earth, I Alone Am The Honored One. I am confident in my skills, and I embrace every opportunity to learn and grow. My commitment to rapid learning and adaptability enables me to handle any challenge that comes my way. My career is marked by a fast-paced work ethic and a proven ability to meet tight deadlines without compromising on quality. As an enthusiastic team player, I am always ready to contribute to the success of the company, leveraging my skills and knowledge to drive projects forward.",
+    summary:
+    "At 22 years old, I have rapidly ascended to the role of Technical Lead for Nourishubs while serving as a Senior Developer and Software Engineer with a proven track record of delivering over 40 successful projects, including high-profile client solutions. My career is built on a foundation of technical mastery, strategic thinking, and the ability to turn complex requirements into elegant, scalable products.\n\nI excel at end-to-end project execution — from architecture and system design to deployment and long-term maintenance — across diverse tech stacks and industries. My leadership style blends hands-on technical expertise with mentoring, enabling teams to perform at their peak while meeting tight deadlines without sacrificing quality.\n\nWith deep experience in frontend and backend engineering, cloud infrastructure, AI integrations, and multi-country project rollouts, I thrive in high-pressure environments where innovation, precision, and results matter. Every project I take on is delivered with a relentless focus on performance, compliance, and user experience, ensuring that both the product and the team behind it succeed.\n\nI am driven by an uncompromising standard: to lead, innovate, and set benchmarks for excellence in Mauritius and beyond.",
+  
   avatarUrl: "/me.jpg",
   skills: [
     "Management",
@@ -108,23 +109,38 @@ export const DATA = {
   },
   work: [
     {
+      company: "Nourishubs",
+      href: "https://nourishubs.com/en",
+      location: "on-site / remote",
+      title: "Technical Lead",
+      logoUrl: "https://nourishubs.com/images/nourishubs/front/logo.svg",
+      start: "June 2025",
+      end: "Present",
+      description: `
+        - Lead and mentor a team of 10+ developers, ensuring delivery of high-quality, scalable solutions.
+        - Set up and deploy the project across multiple countries, adapting to local requirements and infrastructure.
+        - Approve and oversee the development of main features while ensuring compliance with international and local technology laws.
+        - Work extensively with Next.js, Python, Node.js, and .NET for building and maintaining performant web applications. 
+        - Develop and integrate APIs in Node.js and utilize .NET for service bus architecture.
+        - Manage DevOps workflows with Docker and Azure, ensuring smooth deployments and minimal downtime.
+      `,
+    },
+    {
       company: "SDWorx",
       href: "https://www.sdworx.com",
       location: "on-site",
-      title: "Senior Full Stack Engineer",
+      title: "Senior Software Engineer",
       logoUrl: "/sdlogo.png",
       start: "June 2024",
-      badges: [],
       end: "Present",
       description: `
-        - Lead and monitor a team of 3 junior developers, providing guidance and mentorship.
-        - Working extensively with Next.js and Drupal for building and maintaining web applications.
-        - Create APIs in Node.js for seamless backend integration.
-        - Work with .NET for service buses to ensure robust and reliable messaging services.
-        - Conduct sprint planning sessions, ensuring clear objectives and achievable goals.
-        - Perform agile coaching, guiding the team on best practices and methodologies.
-        - Review code to maintain high standards and ensure best practices are followed.
-        - Manage DevOps deployment processes, utilizing tools like Docker and Azure.
+              - Lead and mentor a team of 3 junior developers, ensuring delivery of high-quality, scalable solutions.
+
+        - Built and maintain a custom component library similar to ShadCN, ensuring design consistency and reusability across projects.
+        - Lead a development team, making strategic technical decisions and guiding the project direction.
+        - Architect and implement solutions using Next.js, Drupal, Node.js, and .NET service buses.
+        - Conduct code reviews, enforce best practices, and mentor junior developers.
+        - Oversee DevOps processes with Docker and Azure, ensuring reliable production deployments.
       `,
     },
     {
@@ -204,11 +220,20 @@ export const DATA = {
     {
       school: "University of Mauritius",
       href: "https://www.uom.ac.mu",
+      degree: "MSc – Software Project Management",
+      logoUrl: "/uom.png",
+      start: "2025",
+      end: "July 2027",
+    },
+    {
+      school: "University of Mauritius",
+      href: "https://www.uom.ac.mu",
       degree: "BSC – Web & Multimedia Development",
       logoUrl: "/uom.png",
-      start: "2020",
+      start: "2021",
       end: "Nov 2024",
     },
+    
     {
       school: "Stanford University",
       href: "https://www.coursera.org/account/accomplishments/certificate/A3DL9MHPBUXZ",
@@ -284,12 +309,68 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "motalent",
+      title: "TechKours",
+      href: "https://techkours.vercel.app/",
+      dates: "January 2025 - Current",
+      active: true,
+      description:
+        "TechKours is an innovative online platform designed to bridge the gap between theory and practice in software development. The platform delivers a curriculum packed with **real-world projects** and **hands-on mentorship**, enabling learners to master both frontend and backend technologies. With a strong focus on **practical development skills** and **personalized guidance**, TechKours prepares students for the challenges of professional development from day one.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "ShadCN UI",
+        "Node.js",
+        "MongoDB",
+        "Prisma",
+        "Stripe",
+        "OpenAI API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://techkours.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/techkour.png",
+      video: "",
+    },
+    {
+      title: "Mobet",
+      href: "https://mobet.vercel.app/",
+      dates: "December 2024 - Current",
+      active: true,
+      description:
+        "Mobet is a next-generation **AI-powered sports betting insights platform**. It consolidates free betting tips from multiple trusted sources and leverages AI to curate the top daily picks. Subscribers on the **Pro Plan** access advanced tools like a **Bet Tracker** that provides performance insights, bankroll management suggestions, and personalized betting recommendations. The platform is designed with a clean, modern UI and robust backend architecture for scalability.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "MongoDB",
+        "Upstash Redis",
+        "Stripe",
+        "ShadCN UI",
+        "Magic UI",
+        "OpenAI API"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://mobet.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/mobet.png",
+      video: "",
+    },
+    {
+      title: "MoTalent",
       href: "https://motalentmu.vercel.app/",
       dates: "August 2024 - Current",
       active: true,
       description:
-        "MoTalent is a cutting-edge job board platform designed to connect talented professionals with their dream jobs. The platform features detailed job listings, a seamless user experience, and a streamlined application process. With AI-powered job recommendations, advanced filtering options, and enhanced employer profiles, MoTalent aims to revolutionize the job searching and recruitment landscape. Whether you're a job seeker looking for the perfect role or a recruiter searching for top talent",
+        "MoTalent is a **next-generation job board** that uses AI to connect professionals with tailored opportunities. The platform features detailed job listings, AI-powered recommendations, and employer branding tools. With advanced filtering, an intuitive UI, and a streamlined application process, MoTalent is built to transform the recruitment landscape in Mauritius and beyond.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -297,7 +378,7 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Stripe",
-        "Shadcn UI",
+        "ShadCN UI",
         "Magic UI",
         "OpenAI API"
       ],
@@ -314,29 +395,28 @@ export const DATA = {
         },
       ],
       image: "/motalent.png",
-      video:
-        "",
+      video: "",
     },
     {
-      title: "monature",
+      title: "MoNature",
       href: "https://monature.vercel.app/",
       dates: "July 2024",
       active: true,
-      description: "Monature is a social media platform for nature lovers. It is a full-stack website built with Next.js, Tailwind, Redux, Node.js, Swagger UI, and MongoDB. It allows users to share their nature experiences, photos, and videos with other nature lovers.",
+      description:
+        "MoNature is a **social platform for nature lovers**, encouraging environmental awareness and conservation efforts. Users can share stories, photos, and videos, and engage in eco-driven discussions. Built with a full-stack approach, it features secure authentication, integrated payments for donations, and scalable cloud storage for media.",
       technologies: [
         "Next.js",
-        "Tailwind",
+        "TailwindCSS",
         "Redux",
         "Node.js",
         "Swagger UI",
         "MongoDB",
         "Stripe",
-        "magic ui",
-        "shadcn ui",
-        "jwt",
-        "cloudinary",
+        "Magic UI",
+        "ShadCN UI",
+        "JWT",
+        "Cloudinary",
         "OpenAI API"
-
       ],
       links: [
         {
@@ -354,11 +434,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "motravel",
+      title: "MoTravel",
       href: "https://motravel.vercel.app/",
       dates: "2024",
       active: true,
-      description: "Motravel is a flight booking, hotel booking website made with Next.js and using Framer Motion for animation. This is a full-stack website using all of my skills, including project management, frontend, backend, database, and architecture design. It is connected to a flight booking API called Amadeus, which returns real-time data.",
+      description:
+        "MoTravel is a **full-stack travel booking platform** integrating Amadeus APIs for real-time flight and hotel data. It features a sleek design powered by Framer Motion animations, advanced search and filtering, and secure payment handling for bookings.",
       technologies: [
         "Next.js",
         "Framer Motion",
@@ -378,49 +459,46 @@ export const DATA = {
         },
       ],
       image: "/motravel.png",
-      video:
-        "",
+      video: "",
     },
     {
-      title: "inabox.tech",
-      href: "https://inabox.tech",
-      dates: "Currently in Production",
+      title: "MoPet",
+      href: "https://mopet.vercel.app/",
+      dates: "2025",
       active: true,
-      description: "🚀 Boost Your SME with Our All-in-One SaaS Platform! Effortlessly manage your business with features like 📝 Invoicing to automate and send customizable invoices, 🗣Quotes to quickly generate and convert to invoices, and 📦 Inventory Management to keep accurate stock levels. Enhance client relations with 📞 Client Communication",
+      description:
+        "MoPet is a **pet adoption and donation platform** with campaign management and a vet-finder feature. The platform integrates AI for pet matching and supports secure online donations via Stripe. Built with a responsive and engaging UI, MoPet aims to connect pet lovers and animal welfare organizations.",
       technologies: [
         "Next.js",
         "Framer Motion",
         "Node.js",
         "MongoDB",
         "TailwindCSS",
-        "supabase",
+        "Supabase",
         "Stripe",
-        "magic ui",
-        "nest js",
+        "Magic UI",
+        "NestJS",
         "OpenAI API",
-        "python",
-        "prisma",
-
+        "Python",
+        "Prisma"
       ],
       links: [
         {
           type: "Website",
-   
-          href: "https://inabox.tech/",
+          href: "https://mopet.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "GitHub",
-          href: "https://github.com/vincedotcode/inabox.tech",
+          href: "https://github.com/vincedotcode/mopet",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/inabox.png",
-      video:
-   
-        "",
-    },
+      image: "/mopet copy.png",
+      video: "",
+    }
   ],
+  
   hackathons: [
     {
       title: "Winner - IEEE Web Hackathon 2024",
