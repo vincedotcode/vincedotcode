@@ -30,7 +30,7 @@ export default function Page() {
                 text={DATA.description}
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
-              <Link href="/vince_erkadoo_cv_updated.pdf" download target="_blank">
+              <Link href="/vince_erkadoo_cv_updated_main.pdf" download target="_blank">
                 <Button  className="mt-4">
                
                   Download My CV
