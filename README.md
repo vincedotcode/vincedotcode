@@ -38,6 +38,14 @@ portal that digitised public procurement.
 | [mopet](https://github.com/vincedotcode/mopet) | Pet adoption and donation platform with vet-finder |
 | [mokidsafe](https://github.com/vincedotcode/mokidsafe) | Child safety app, React Native: real-time location and geofencing |
 
+### Certifications
+
+- Microsoft Certified: Azure Fundamentals (AZ-900), 2023
+- Neo4j Certified Professional, 2023
+- Google Project Management Professional Certificate, 2024
+- Certified Associate in Scrum Fundamentals (CASF), 2024
+- Future FinTech Champion, Mauritius Africa FinTech Hub, 2024–25
+
 ### Stack
 
 `TypeScript` `Python` `C#/.NET` · `Next.js` `React` `React Native` `NestJS`
