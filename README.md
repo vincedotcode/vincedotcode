@@ -1,33 +1,33 @@
-## vince█code
+<img src="assets/header.png" alt="A brain drawn in blue dots with neurons firing, beside the line: We are all one mind, still learning to see itself." width="100%">
 
-**CTO & Founder** · AI Engineering · Full Stack
+## Hi, I'm Vince.
 
-I build AI where a wrong answer costs money. Production systems, not demos.
+I study how minds come to be, in people and in machines, and I ship the systems.
+I'm an AI researcher and engineer in Mauritius, and I still can't stop asking what's
+actually going on inside the models I build.
 
-Port-Louis, Mauritius · [vincedotcode.com](https://vincedotcode.com)
+[vincedotcode.com](https://www.vincedotcode.com) · [X](https://x.com/vinceerkadoo) · [LinkedIn](https://www.linkedin.com/in/vinceerkadoo) · vince@vincedotcode.com
 
 ---
 
 ### Now
 
-- **CTO, [Nourishubs](https://www.nourishubs.com)** — school-meals platform live in
-  four countries. Joined as Technical Lead. Lead ten engineers, designers and QA;
-  own the architecture across Next.js, Python, Node.js and .NET services. Directed
-  the ISO 27001 implementation across four regulatory environments.
-- **Founder, [Bienzoli](https://www.bienzoli.com)** — invoicing, inventory and CRM
-  for small businesses in Mauritius. Built and run solo.
-- **Senior Software Engineer, SD Worx** — RAG assistant answering HR and payroll
-  questions from policy documents, with cited sources and refusal when no source
-  exists. Measured on wrong-answer rate.
+- **CTO (consulting), [Nourishubs](https://www.nourishubs.com).** A food platform that
+  started with school meals and now also serves early learning centres and
+  organisations. I own the architecture and led the ISO 27001 work.
+- **Founder, [Bienzoli](https://www.bienzoli.com).** POS, invoicing and stock for small
+  businesses in Mauritius. I build and run it myself.
+- **Senior Software Engineer, SD Worx.** Since 2024.
 
-### What I actually do
+### Research
 
-RAG with citations, grounding and refusal behaviour. Agent design and orchestration,
-MCP, guardrails, evaluation harnesses. The unglamorous half: ledgered transactions,
-idempotency, audit logs, RBAC, incident response.
-
-Five years, 40+ systems shipped, from PCI payment interfaces to a national tender
-portal that digitised public procurement.
+- **Living Base Models** (draft, Oct 2026). I took the assistant script away from a
+  language model and asked what it says about itself. I found no evidence of
+  experience, and the paper says so plainly. I'm not done looking.
+- **Probes and small minds.** Activation probes, direction ablation, small
+  Transformers trained from scratch. Every failed attempt stays on the record.
+- **Sunday.** My own AI, living on a loop with goals it sets itself. I'm building it
+  to find out how much of an inner life can be engineered, and where that stops.
 
 ### Selected work
 
@@ -38,14 +38,17 @@ portal that digitised public procurement.
 | [mopet](https://github.com/vincedotcode/mopet) | Pet adoption and donation platform with vet-finder |
 | [mokidsafe](https://github.com/vincedotcode/mokidsafe) | Child safety app, React Native: real-time location and geofencing |
 
+40+ projects since 2020, in four countries. Case studies on [my site](https://www.vincedotcode.com/cases).
+
+### Certifications
+
+- Microsoft Certified: Azure Fundamentals (AZ-900), 2023
+- Neo4j Certified Professional, 2023
+- Google Project Management Professional Certificate, 2024
+- Certified Associate in Scrum Fundamentals (CASF), 2024
+- Future FinTech Champion, Mauritius Africa FinTech Hub, 2024–25
+
 ### Stack
 
 `TypeScript` `Python` `C#/.NET` · `Next.js` `React` `React Native` `NestJS`
 `PostgreSQL` `MongoDB` `Prisma` `Redis` · `AWS EKS` `Azure` `Docker` `Kubernetes`
-
-### Elsewhere
-
-[vincedotcode.com](https://vincedotcode.com) ·
-[LinkedIn](https://www.linkedin.com/in/vinceerkadoo) ·
-[X](https://x.com/vinceerkadoo) ·
-vince@vincedotcode.com
